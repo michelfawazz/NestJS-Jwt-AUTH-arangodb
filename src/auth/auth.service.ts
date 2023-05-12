@@ -14,6 +14,10 @@ export class AuthService {
 
     async ValidateUser(username: string, password: string) {
 
+
+
+        //implement your own logic to validate the user
+
         try {
 
     
@@ -44,6 +48,11 @@ export class AuthService {
             return { success: false, message: error.message };
 
         }
+
+
+
+
+
 
 
     }

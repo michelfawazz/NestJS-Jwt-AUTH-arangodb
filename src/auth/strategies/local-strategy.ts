@@ -7,7 +7,6 @@ import { AuthService } from '../auth.service';
 export class LocalStrategy extends PassportStrategy(Strategy) {
   constructor(private authService: AuthService) {
 
-    //override to have username password and addresswallet
 
     super();
 
